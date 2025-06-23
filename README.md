@@ -1,50 +1,98 @@
-# LexiRead: Personalized News Summarizer
+# ⚡ FeedFlash: Scheduled News Summarizer
 
 ## 📌 Summary
-Smart News Summarizer is an AI-powered tool that condenses lengthy news articles into concise, human-readable summaries. Using state-of-the-art transformer models like **T5** and **BART**, the system offers rapid comprehension of complex news content, tailored for students, professionals, and researchers who need TL;DRs without losing context.
+
+**FeedFlash** is a scheduled news summarization system that pulls 60 English-language news articles daily and generates concise ~60-word summaries using a fine-tuned transformer model. The summaries are displayed through a Gradio UI that updates throughout the day and resets every night at 2:00 AM to minimize storage and stay free-tier compatible.
+
+Built for students, readers, and anyone who wants to scan the day’s news quickly without losing key information.
+
+---
 
 ## ✅ What It Does
-- Accepts raw news article text and generates a concise summary.
-- Leverages **T5/BART** models via Hugging Face pipelines.
-- Built and executed in a Kaggle notebook using free-tier GPUs.
 
-## ⚙️ How It Will Be Built
+- Pulls live headlines from **NewsAPI** (free tier)
+- Extracts full article text using `newspaper3k`
+- Uses a **fine-tuned transformer model** (based on `bart-base`)
+- Summarizes articles into ~60-word abstracts
+- Displays title, summary, and link in a clean **Gradio** interface
+- Logs user feedback (👍/👎) and purges data daily to save memory
 
-### Dataset
-- [CNN/DailyMail](https://www.kaggle.com/datasets/saipavansarin/news-summary)
-- BBC News Summary
-- Inshorts News Data
+---
 
-### Model
-- Pretrained transformer models: `t5-small`, `bart-base` (Hugging Face).
+## ⚙️ How It’s Built
 
-### Development Plan
-| Week | Tasks |
-|------|-------|
-| 1 | Learn Hugging Face, load summarization pipeline |
-| 2 | Load dataset, build basic summarizer |
-| 3 | Add polish, output formatting, documentation |
+### 🧠 Model
+- Base: `facebook/bart-base`
+- Fine-tuned on news-style data (e.g. CNN/DailyMail)
+- Hosted on Hugging Face Hub under contributor’s ID
 
-## 🧠 Techniques Used
-- Hugging Face Pipelines
-- Transformer models for summarization
-- Transfer Learning
+### 📅 Scheduled Runs
+- Summarizes **15 articles every 4 hours**
+  - 8 AM, 2 PM, 6 PM, 10 PM (IST)
+- Purges all summaries and feedback logs daily at **2:00 AM**
 
-## 🧰 Tech Stack
-- Python 3.x, Hugging Face, Pandas, NumPy
-- Kaggle Notebooks (Free GPU)
-- Jupyter Notebook
+### 🧰 Tech Stack
 
-## 🌍 Societal Use Case
-- Help readers and students consume news faster.
-- Useful for content summarization in journalism and academia.
-- Potential use in browser extensions and learning platforms.
+| Component       | Tool/Library               |
+|----------------|-----------------------------|
+| Data Fetching   | `NewsAPI`, `newspaper3k`    |
+| Summarization   | Hugging Face Transformers (`bart-base`) |
+| Scheduling      | `apscheduler`               |
+| UI              | `Gradio`                    |
+| Hosting         | Hugging Face Spaces (CPU)   |
+| Logging         | JSON (`summaries.json`, `logs.json`) |
 
-## 🧾 Resume Outlook
-**Summary:** Built a summarizer using Hugging Face’s `t5-small` and `bart-base`, executed in Kaggle Notebook on CNN/DailyMail dataset.  
-**Skills:** Transformers, Hugging Face, Jupyter, summarization pipelines.
+---
 
-## 📚 Learning Resources
-- [Hugging Face Course](https://huggingface.co/learn/nlp-course)
-- [T5 vs BART Blog](https://towardsdatascience.com/t5-vs-bart-which-summarizer-should-you-use-2d2f6cdbf04e)
-- [Kaggle Notebooks Guide](https://www.kaggle.com/docs/notebooks)
+## 🗃️ Folder Structure
+
+```text
+feedflash/
+├── app.py              # Gradio UI
+├── news_fetcher.py     # NewsAPI + newspaper3k
+├── summarizer.py       # Loads fine-tuned model
+├── scheduler.py        # Scheduled runs + data reset
+├── summaries.json      # Stores current day's summaries
+├── logs.json           # Stores user feedback
+├── requirements.txt
+├── README.md
+└── spaces.yaml         # Hugging Face Spaces config
+```
+
+---
+
+## 🧪 Development Plan
+
+| Phase | Task                                                    |
+|-------|---------------------------------------------------------|
+| 1     | Fine-tune summarization model and push to Hugging Face |
+| 2     | Build article ingestion + summarizer pipeline           |
+| 3     | Create Gradio UI and test manually                      |
+| 4     | Add scheduled runs + daily purge                        |
+| 5     | Deploy to Hugging Face Spaces and test full stack       |
+
+---
+
+## 🌍 Use Cases
+
+- Quickly get an overview of major headlines
+- Save time by reading compact summaries
+- Ideal for students, researchers, and readers on the go
+- Easily extendable for multi-language or regional sources
+
+---
+
+## 🧾 Highlight
+
+**Project:** Built an automated news summarization system using a fine-tuned `bart-base` model, article ingestion pipeline, Gradio UI, and free-tier deployment on Hugging Face Spaces with scheduled daily runs.  
+**Skills:** Transformers, NLP, JSON pipelines, `Gradio`, `apscheduler`, `newspaper3k`, Hugging Face deployment
+
+---
+
+## 📚 References & Resources
+
+- [Hugging Face Transformers](https://huggingface.co/docs/transformers/index)
+- [Gradio Docs](https://gradio.app)
+- [NewsAPI](https://newsapi.org/)
+- [newspaper3k](https://newspaper.readthedocs.io/en/latest/)
+- [apscheduler](https://apscheduler.readthedocs.io/en/latest/)
