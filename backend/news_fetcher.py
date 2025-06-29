@@ -12,9 +12,9 @@ sys.path.append(app_dir)
 
 from summarizer import summarize_text
 
-API_KEY = os.getenv("NEWSAPI_KEY")
+API_KEY = os.getenv("NEWS_API")
 if not API_KEY:
-    raise ValueError("❌ NEWSAPI_KEY is not set in environment variables")
+    raise ValueError("❌ NEWS_API is not set in environment variables")
 
 client = NewsApiClient(api_key=API_KEY)
 
