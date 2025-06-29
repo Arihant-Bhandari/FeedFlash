@@ -8,7 +8,7 @@ on:
 jobs:
   run-fetcher:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: ⬇ Checkout GitHub Repo
         uses: actions/checkout@v4
@@ -19,25 +19,28 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
-          
+
       - name: 📦 Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          
+
       - name: 📰 Run News Fetcher
         run: |
+          echo "🔐 Available ENV: $NEWS_API"
           python backend/news_fetcher.py
+        env:
+          NEWS_API: ${{ secrets.NEWS_API }}
           
       - name: 💾 Commit updates to GitHub using GH_PAT
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          
+
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
-          
+
           git add app/summaries.json backend/fetch_log.json
-          
+
           if git diff --staged --quiet; then
             echo "✅ No changes to commit"
           else
@@ -45,25 +48,21 @@ jobs:
             git push origin HEAD
           fi
         env:
-            NEWS_API: ${{ secrets.NEWS_API }}
-            GH_PAT: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_PAT }}
           
       - name: 🚀 Sync to Hugging Face Space
         run: |
-          # Clone HF Space
           git clone https://oauth2:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/Arihant-Bhandari/FeedFlash hf_space
-          
-          # Copy updated files
+
           mkdir -p hf_space/app hf_space/backend
           cp app/summaries.json hf_space/app/ || echo "summaries.json not found"
           cp backend/fetch_log.json hf_space/backend/ || echo "fetch_log.json not found"
-          
-          # Commit and push to HF
+
           cd hf_space
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add app/summaries.json backend/fetch_log.json
-          
+
           if git diff --staged --quiet; then
             echo "✅ No changes to sync to Hugging Face"
           else
@@ -72,4 +71,4 @@ jobs:
             echo "✅ Successfully synced to Hugging Face!"
           fi
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
