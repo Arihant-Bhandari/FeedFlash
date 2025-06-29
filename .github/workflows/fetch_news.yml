@@ -45,7 +45,8 @@ jobs:
             git push origin HEAD
           fi
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+            NEWS_API: ${{ secrets.NEWS_API }}
+            GH_PAT: ${{ secrets.GH_PAT }}
           
       - name: 🚀 Sync to Hugging Face Space
         run: |
