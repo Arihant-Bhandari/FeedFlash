@@ -1,7 +1,13 @@
 {
-  "timestamp": "2025-06-30T11:55:46.348046",
+  "timestamp": "2025-06-30T14:03:30.500769",
   "article_count": 30,
   "logs": [
+    {
+      "title": "Joby delivers first aircraft to Dubai as air taxi service nears launch",
+      "url": "https://www.theverge.com/news/694515/joby-delivers-first-aircraft-to-dubai-as-air-taxi-service-nears-launch",
+      "word_count": 746,
+      "summary_length": 74
+    },
     {
       "title": "OpenAI and Microsoft are dueling over AGI. These real-world tests will prove when AI is really better than humans.",
       "url": "https://www.businessinsider.com/openai-microsoft-duel-agi-real-world-tests-ai-better-humans-2025-6",
@@ -21,16 +27,34 @@
       "summary_length": 20
     },
     {
+      "title": "Anker Is Going All In, This 3-Port 65W USB-C Charger Is Almost Free Before Prime Day",
+      "url": "https://gizmodo.com/anker-is-going-all-in-this-3-port-65w-usb-c-charger-is-almost-free-before-prime-day-2000621834",
+      "word_count": 339,
+      "summary_length": 75
+    },
+    {
       "title": "1500W Portable Power Station Is Cheaper Than on Black Friday, And You\u2019ll Get a Free 200W Solar Panel Too",
       "url": "https://gizmodo.com/1500w-portable-power-station-is-cheaper-than-on-black-friday-and-youll-get-a-free-200w-solar-panel-too-2000621824",
       "word_count": 406,
       "summary_length": 65
     },
     {
+      "title": "Is Jake Paul ready for a world title fight? Who is his best option?",
+      "url": "https://www.espn.com/boxing/story/_/id/45607165/is-jake-paul-ready-fight-world-title-cruiserweight-best-option",
+      "word_count": 832,
+      "summary_length": 61
+    },
+    {
       "title": "I spent a week living like it was 1993 \u2014 here\u2019s how it went",
       "url": "https://www.androidauthority.com/living-like-its-1993-3569203/",
       "word_count": 1350,
-      "summary_length": 70
+      "summary_length": 72
+    },
+    {
+      "title": "This Ninja 6-in-1 XL Air Fryer Drops to a New Prime Day Low, and It\u2019s Rated 4.7 out of 5",
+      "url": "https://gizmodo.com/this-ninja-6-in-1-xl-air-fryer-drops-to-a-new-prime-day-low-and-its-rated-4-7-out-of-5-2000621842",
+      "word_count": 447,
+      "summary_length": 63
     },
     {
       "title": "Open-Source Knob Packed with Precision",
@@ -49,6 +73,12 @@
       "url": "https://www.yankodesign.com/2025/06/29/top-5-essential-toolbox-innovations-for-modern-diy-and-home-improvement-in-2025/",
       "word_count": 1230,
       "summary_length": 73
+    },
+    {
+      "title": "Crypto Bros Are Winning Big in Trump\u2019s America",
+      "url": "https://gizmodo.com/crypto-bros-are-winning-big-in-trumps-america-2000621885",
+      "word_count": 801,
+      "summary_length": 68
     },
     {
       "title": "Iran could start enriching uranium for bomb within months, UN nuclear chief says",
@@ -81,6 +111,12 @@
       "summary_length": 18
     },
     {
+      "title": "Skill of the Week: Stack Your Burger Toppings With Maximum Effectiveness",
+      "url": "https://www.artofmanliness.com/living/food-drink/the-best-order-to-stack-your-burger-toppings/",
+      "word_count": 830,
+      "summary_length": 54
+    },
+    {
       "title": "The CEO building the 'Ikea of factories' wants to democratize semiconductor production",
       "url": "https://www.businessinsider.com/nanotronics-ceo-interview-semiconductor-fab-factories-local-2025-6",
       "word_count": 860,
@@ -105,6 +141,18 @@
       "summary_length": 68
     },
     {
+      "title": "Roborock Prime Day Will Be Prime Time to Discover the Incredible New Qrevo and Q Series Robot Cleaners",
+      "url": "https://gizmodo.com/roborock-prime-day-will-be-prime-time-to-discover-the-incredible-new-qrevo-and-q-series-robot-cleaners-2000620442",
+      "word_count": 1459,
+      "summary_length": 62
+    },
+    {
+      "title": "Crime blotter: Heist indictment, looting charges, and a movie star is robbed",
+      "url": "https://appleinsider.com/articles/25/06/29/crime-blotter-heist-indictment-looting-charges-and-a-movie-star-is-robbed",
+      "word_count": 1048,
+      "summary_length": 62
+    },
+    {
       "title": "Kremlin says Europe will feel the recoil from its 'illegal' sanctions on Russia",
       "url": "https://ca.news.yahoo.com/kremlin-says-europe-feel-recoil-095013464.html",
       "word_count": 322,
@@ -117,6 +165,12 @@
       "summary_length": 18
     },
     {
+      "title": "Apple still has some unannounced iOS 26 features in the pipeline: report",
+      "url": "https://9to5mac.com/2025/06/29/additional-unannounced-ios-26-features-report/",
+      "word_count": 291,
+      "summary_length": 75
+    },
+    {
       "title": "Concert tickets are wildly expensive. What would it take to actually make them affordable?",
       "url": "https://www.businessinsider.com/ticket-prices-expensive-cheap-beyonce-taylor-swift-ticketmaster-stubhub-seatgeek-2025-6",
       "word_count": 3248,
@@ -127,60 +181,6 @@
       "url": "https://gizmodo.com/if-you-own-an-iphone-amazon-is-offering-a-free-airtag-prime-day-2000619896",
       "word_count": 399,
       "summary_length": 75
-    },
-    {
-      "title": "The Italian Pavilion Expo 2025 Osaka / Mario Cucinella Architects + Yoshiki Matsuda Architects",
-      "url": "https://www.archdaily.com/1031271/the-italian-pavilion-expo-2025-osaka-mario-cucinella-architects-plus-yoshiki-matsuda-architects",
-      "word_count": 338,
-      "summary_length": 69
-    },
-    {
-      "title": "A millennial explains how he made $500K secretly working 3 remote jobs in tech",
-      "url": "https://www.businessinsider.com/how-millennial-earned-500k-annually-working-three-remote-tech-jobs-2025-6",
-      "word_count": 876,
-      "summary_length": 73
-    },
-    {
-      "title": "Humphries beats Aspinall in US Darts Masters final",
-      "url": "https://www.bbc.com/sport/darts/articles/cp825zlw2y1o",
-      "word_count": 113,
-      "summary_length": 22
-    },
-    {
-      "title": "Jake Paul Claims Unanimous Decision Victory Over Julio Cesar Chavez Jr.",
-      "url": "https://hypebeast.com/2025/6/jake-paul-julio-cesar-chavez-jr-unanimous-decision-boxing-victory-news",
-      "word_count": 347,
-      "summary_length": 61
-    },
-    {
-      "title": "Jake Paul defeats Chavez Jr by unanimous decision in boxing fight",
-      "url": "https://www.aljazeera.com/sports/2025/6/29/jake-paul-defeats-chavez-jr-by-unanimous-decision-in-boxing-fight",
-      "word_count": 700,
-      "summary_length": 57
-    },
-    {
-      "title": "US farmers devastated after record-setting rains leave crops rotting: 'We've got farmers posting some pictures of just whole fields under water'",
-      "url": "https://www.yahoo.com/news/us-farmers-devastated-record-setting-110038073.html",
-      "word_count": 655,
-      "summary_length": 73
-    },
-    {
-      "title": "Messi mania turns Miami into America's soccer city - as big decisions loom",
-      "url": "https://www.bbc.com/sport/football/articles/ckgj1494g1jo",
-      "word_count": 571,
-      "summary_length": 57
-    },
-    {
-      "title": "I took a $12-an-hour job at Whole Foods after losing my job in higher education. It changed the trajectory of my life.",
-      "url": "https://www.businessinsider.com/took-12-hour-job-whole-foods-after-layoff-higher-ed-2025-6",
-      "word_count": 1089,
-      "summary_length": 72
-    },
-    {
-      "title": "'It's a joke! It's NOT football!' - Maresca fumes after two-hour CWC weather delay",
-      "url": "https://www.skysports.com/football/news/11095/13389972/chelsea-boss-enzo-maresca-fumes-after-two-hour-club-world-cup-weather-delay-its-a-joke-its-not-football",
-      "word_count": 1968,
-      "summary_length": 76
     }
   ]
 }
