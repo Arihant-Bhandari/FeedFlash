@@ -31,6 +31,7 @@ jobs:
           python backend/news_fetcher.py
         env:
           NEWS_API: ${{ secrets.NEWS_API }}
+          PYTHONPATH: ${{ github.workspace }}/Deep_Learning/FeedFlash
           
       - name: 💾 Commit updates to GitHub using GH_PAT
         run: |
