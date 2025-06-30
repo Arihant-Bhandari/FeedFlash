@@ -1,186 +1,174 @@
 {
-  "timestamp": "2025-06-29T14:18:52.021165",
-  "article_count": 30,
+  "timestamp": "2025-06-30T03:48:14.510787",
+  "article_count": 28,
   "logs": [
     {
-      "title": "The World Is Producing More Food than Ever\u2014but Not for Long",
-      "url": "https://www.wired.com/story/the-world-is-producing-more-food-than-ever-before-but-not-for-long/",
-      "word_count": 551,
-      "summary_length": 73
+      "title": "Chelsea beat Benfica to reach FIFA Club World Cup quarterfinal",
+      "url": "https://www.aljazeera.com/sports/2025/6/29/chelsea-beat-benfica-to-reach-fifa-club-world-cup-quarterfinal",
+      "word_count": 760,
+      "summary_length": 68
     },
     {
-      "title": "A Wood Chipper from First Principles",
-      "url": "https://hackaday.com/2025/06/28/a-wood-chipper-from-first-principles/",
-      "word_count": 312,
-      "summary_length": 83
+      "title": "The Italian Pavilion Expo 2025 Osaka / Mario Cucinella Architects + Yoshiki Matsuda Architects",
+      "url": "https://www.archdaily.com/1031271/the-italian-pavilion-expo-2025-osaka-mario-cucinella-architects-plus-yoshiki-matsuda-architects",
+      "word_count": 338,
+      "summary_length": 69
     },
     {
-      "title": "ICE Rolls Facial Recognition Tools Out to Officers' Phones",
-      "url": "https://www.wired.com/story/ice-rolls-facial-recognition-tools-out-to-officers-phones/",
-      "word_count": 867,
-      "summary_length": 75
-    },
-    {
-      "title": "Tesla says it delivered its first car autonomously from factory to customer",
-      "url": "https://www.theverge.com/news/694801/tesla-autonomous-delivery-factory-customer-robotaxi",
-      "word_count": 380,
-      "summary_length": 84
-    },
-    {
-      "title": "Fancy Airplane Seats Have Nowhere Left to Go\u2014So What Now?",
-      "url": "https://www.wired.com/story/fancy-airplane-seats-have-nowhere-left-to-go-so-what-now/",
-      "word_count": 370,
+      "title": "Official Look at the FC Porto x New Balance 2002R",
+      "url": "https://hypebeast.com/2025/6/fc-porto-new-balance-2002r-u2002rfp-release-info",
+      "word_count": 202,
       "summary_length": 61
     },
     {
-      "title": "Rubin Observatory\u2019s Stunning Result Proves It\u2019s a \u2018Game Changer\u2019 for Spotting Dangerous Asteroids",
-      "url": "https://gizmodo.com/rubin-observatorys-stunning-result-proves-its-a-game-changer-for-spotting-dangerous-asteroids-2000621581",
-      "word_count": 1317,
-      "summary_length": 62
+      "title": "After two-hour weather delay, Chelsea outlast Benfica in Club World Cup win",
+      "url": "https://www.foxsports.com/stories/soccer/nkunkus-extratime-goal-sparks-chelsea-to-weatherdelayed-41-win-over-benfica-in-club-world-cup",
+      "word_count": 546,
+      "summary_length": 78
     },
     {
-      "title": "Japan loves them. And now they're in the UK - strawberries and cream sandwiches",
-      "url": "https://www.bbc.com/news/articles/c75rdryk63lo",
-      "word_count": 937,
-      "summary_length": 66
-    },
-    {
-      "title": "Your member of Congress might be using ChatGPT",
-      "url": "https://www.businessinsider.com/members-congress-politicians-using-chatgpt-grok-ai-2025-6",
-      "word_count": 927,
+      "title": "Chelsea outlast Benfica, weather delay to progress",
+      "url": "https://www.espn.com/soccer/report/_/gameId/735945",
+      "word_count": 412,
       "summary_length": 69
     },
     {
-      "title": "Building A 3D-Printed RC Dump Truck",
-      "url": "https://hackaday.com/2025/06/27/building-a-3d-printed-rc-dump-truck/",
-      "word_count": 245,
-      "summary_length": 71
-    },
-    {
-      "title": "Hard to imagine a worse time to deport Afghan refugees, human rights advocates say",
-      "url": "https://www.npr.org/sections/goats-and-soda/2025/06/28/g-s1-74742/afghan-refugees-afghanistan-deported-pakistan-iran",
-      "word_count": 1150,
-      "summary_length": 81
-    },
-    {
-      "title": "Catio wins \u2018coolest tech\u2019 award at VB Transform 2025",
-      "url": "https://venturebeat.com/ai/catio-wins-coolest-tech-award-at-vb-transform-2025/",
-      "word_count": 799,
-      "summary_length": 67
-    },
-    {
-      "title": "Atomic Heart team wants to \u2018troll flat-earthers\u2019 with new MMO The Cube",
-      "url": "https://www.polygon.com/preview/609494/the-cube-interview-atomic-heart-developers-mundfish",
-      "word_count": 825,
-      "summary_length": 55
-    },
-    {
-      "title": "Ex-NATO hacker: 'In the cyber world, there's no such thing as a ceasefire'",
-      "url": "https://www.theregister.com/2025/06/28/exnato_hacker_ceasefire_iran/",
-      "word_count": 963,
-      "summary_length": 64
-    },
-    {
-      "title": "How to get free software from yesteryear's IT crowd \u2013 trick code into thinking it's running on a rival PC",
-      "url": "https://www.theregister.com/2025/06/28/hacks_to_get_free_software/",
-      "word_count": 551,
-      "summary_length": 64
-    },
-    {
-      "title": "June is National Safety Month, and these Android phones could help save your life",
-      "url": "https://www.androidcentral.com/phones/june-is-national-safety-month-and-these-android-phones-could-help-save-your-life",
-      "word_count": 1181,
-      "summary_length": 83
-    },
-    {
-      "title": "Where the Voting Rights Act stands after the Supreme Court punts on a Louisiana case",
-      "url": "https://www.npr.org/2025/06/28/nx-s1-5445336/supreme-court-louisiana-redistricting-voting-rights-act",
-      "word_count": 1224,
-      "summary_length": 74
-    },
-    {
-      "title": "I'm a drag queen in NYC whose bookings for Pride Month have plummeted this year. I'm trying to work smarter, not harder.",
-      "url": "https://www.businessinsider.com/drag-queen-nyc-brita-filter-pride-bookings-down-corporate-support-2025-6",
-      "word_count": 979,
-      "summary_length": 63
-    },
-    {
-      "title": "Lorde's new album 'Virgin' is messy, emotional, and perfectly suited for the moment",
-      "url": "https://www.businessinsider.com/lorde-virgin-album-review-career-arc-since-royals-2025-6",
-      "word_count": 895,
-      "summary_length": 60
-    },
-    {
-      "title": "Tesla's first fully autonomous car drove itself to its new Texas owner, doing 72 mph on the highway, an engineer says",
-      "url": "https://www.businessinsider.com/tesla-first-fully-autonomous-car-delivered-texas-owner-2025-6",
-      "word_count": 338,
-      "summary_length": 74
-    },
-    {
-      "title": "The Supreme Court just upended internet law, and I have questions",
-      "url": "https://www.theverge.com/analysis/694710/supreme-court-fsc-paxton-age-verification-questions",
-      "word_count": 1017,
-      "summary_length": 64
-    },
-    {
-      "title": "Swarms of robots could go up your nose, melt the mucus and clean your sinuses",
-      "url": "https://www.zmescience.com/future/swarms-of-tiny-robots-could-go-up-your-nose-melt-the-mucus-and-clean-your-sinuses/",
-      "word_count": 614,
-      "summary_length": 69
-    },
-    {
-      "title": "A Reboot for Capitalism\u2019s Operating System",
-      "url": "https://www.theatlantic.com/economy/archive/2025/06/reboot-capitalism-operating-system/683308/",
-      "word_count": 2016,
-      "summary_length": 76
-    },
-    {
-      "title": "Decoding Tesla\u2019s New \u201cFully Autonomous\u201d Car Video\u2014and What It Isn\u2019t Telling You",
-      "url": "https://gizmodo.com/decoding-teslas-new-fully-autonomous-car-video-and-what-it-isnt-telling-you-2000621768",
-      "word_count": 1017,
-      "summary_length": 75
-    },
-    {
-      "title": "Behind the Bally Home Computer System",
-      "url": "https://hackaday.com/2025/06/28/behind-the-bally-home-computer-system/",
-      "word_count": 350,
-      "summary_length": 72
-    },
-    {
-      "title": "The 10 most affordable states to buy a home if you're single",
-      "url": "https://www.businessinsider.com/states-more-affordable-for-single-homebuyers-2025-6",
-      "word_count": 341,
-      "summary_length": 75
-    },
-    {
-      "title": "Getting tickets for fitness competitions like Hyrox is almost as hard as seeing Taylor Swift",
-      "url": "https://www.businessinsider.com/getting-hyrox-tickets-like-taylor-swift-demand-soaring-fitness-competitions-2025-6",
-      "word_count": 1788,
+      "title": "Steven Spielberg's Worst Movie, According To Letterboxd Users",
+      "url": "https://www.slashfilm.com/1893968/steven-spielberg-worst-movie-letterboxd-users-something-evil/",
+      "word_count": 407,
       "summary_length": 57
     },
     {
-      "title": "Inside Jeff Bezos and Lauren S\u00e1nchez's Venetian vows",
-      "url": "https://www.businessinsider.com/bi-today-jeff-bezos-lauren-sanchez-venice-wedding-2025-6",
-      "word_count": 1159,
+      "title": "\u201cMy Parents Died Yesterday\u201d: Woman Cuts Narcissistic Mom Off For Her Mental Health, Gets Threats",
+      "url": "https://www.boredpanda.com/mom-threatening-cps-after-no-contact/",
+      "word_count": 1502,
+      "summary_length": 74
+    },
+    {
+      "title": "Henry Golding Explains Why James Bond Role Is \u201cEvery Actor\u2019s Kind Of Nightmare\u201d",
+      "url": "http://deadline.com/2025/06/henry-golding-james-bond-role-every-actors-nightmare-1236445301/",
+      "word_count": 331,
+      "summary_length": 58
+    },
+    {
+      "title": "Kids Aren\u2019t Allowed To Ride A Golden Retriever As A Horse, Dog Owner Shocked By Parents\u2019 Reaction",
+      "url": "https://www.boredpanda.com/entitled-parents-kids-ride-dog/",
+      "word_count": 782,
+      "summary_length": 91
+    },
+    {
+      "title": "Tomorrows World Today S09E04 1080p WEB h264-FREQUENCY",
+      "url": "https://post.rlsbb.cc/tomorrows-world-today-s09e04-1080p-web-h264-frequency/",
+      "word_count": 184,
+      "summary_length": 74
+    },
+    {
+      "title": "Zohran Mamdani\u2019s fiscal armageddon could bring NYC back to the bad old days",
+      "url": "https://nypost.com/2025/06/28/business/zohran-mamdanis-fiscal-armageddon-could-bring-nyc-back-to-the-bad-old-days/",
+      "word_count": 1012,
+      "summary_length": 62
+    },
+    {
+      "title": "1940s Women\u2019s Shorts: A New Era of Style and Practicality",
+      "url": "https://www.vintag.es/2025/06/1940s-womens-shorts.html",
+      "word_count": 170,
+      "summary_length": 72
+    },
+    {
+      "title": "Articles On: Fairness, Middle East, US Dominance, TikTok, Cameras, Central Bank, Trade, and Chips",
+      "url": "https://www.hoover.org/research/articles-fairness-middle-east-us-dominance-tiktok-cameras-central-bank-trade-and-chips",
+      "word_count": 203,
+      "summary_length": 65
+    },
+    {
+      "title": "\u201cIt Gets Juicy\u201d: Company Tries To Deny Woman Maternity Leave, Underestimates Her",
+      "url": "https://www.boredpanda.com/hr-tried-not-pay-maternity-leave-fake-reason/",
+      "word_count": 630,
+      "summary_length": 80
+    },
+    {
+      "title": "Chelsea overcomes Club World Cup weather delay, set up Palmeiras quarter-final",
+      "url": "https://japantoday.com/category/sports/chelsea-overcome-club-world-cup-weather-delay-set-up-palmeiras-quarter-final",
+      "word_count": 709,
+      "summary_length": 20
+    },
+    {
+      "title": "Chelsea boss lashes out at Club World Cup organisers after yet another weather delay",
+      "url": "https://www.channelnewsasia.com/sport/chelsea-boss-lashes-out-club-world-cup-organisers-after-yet-another-weather-delay-5209751",
+      "word_count": 333,
+      "summary_length": 62
+    },
+    {
+      "title": "xAI Grok 3.5 Renamed Grok 4 and Has Specialized Coding Model",
+      "url": "https://www.nextbigfuture.com/2025/06/xai-grok-3-5-renamed-grok-4-and-has-specialized-coding-model.html",
+      "word_count": 530,
+      "summary_length": 70
+    },
+    {
+      "title": " Chelsea oust Benfica, face Palmeiras in Club World Cup quarters",
+      "url": "https://onefootball.com/en/news/chelsea-oust-benfica-face-palmeiras-in-club-world-cup-quarters-41304913",
+      "word_count": 584,
+      "summary_length": 72
+    },
+    {
+      "title": "Hamilton hails Ferrari after \"fantastic\" qualifying result for the Maranello-based team",
+      "url": "https://www.f1technical.net/news/27195",
+      "word_count": 499,
+      "summary_length": 69
+    },
+    {
+      "title": "Delta Cancels 900+ Flights\u2014Internal Document Reveals Airline Will Pay For Competitor Flights, Hotels, And Rental Cars",
+      "url": "https://viewfromthewing.com/delta-cancels-900-flights-internal-document-reveals-airline-will-pay-for-competitor-flights-hotels-and-rental-cars/",
+      "word_count": 269,
+      "summary_length": 64
+    },
+    {
+      "title": "Vibrant Group Full Year 2025 Earnings: EPS: S$0.011 (vs S$0.001 in FY 2024)",
+      "url": "https://finance.yahoo.com/news/vibrant-group-full-2025-earnings-001447569.html",
+      "word_count": 258,
       "summary_length": 66
     },
     {
-      "title": "M3GAN 2.0's Deeper Meaning Is Going To Make A Lot Of People Uncomfortable",
-      "url": "https://www.slashfilm.com/1896352/m3gan-2-deeper-meaning-people-uncomfortable/",
-      "word_count": 334,
-      "summary_length": 60
+      "title": "Starmer says he was 'heavily focused' on world affairs before U-turn on welfare",
+      "url": "https://news.sky.com/story/starmer-says-he-was-heavily-focused-on-world-affairs-before-u-turn-on-welfare-bill-13389954",
+      "word_count": 391,
+      "summary_length": 66
     },
     {
-      "title": "Israel's leaders slam a news report on a Gaza 'killing field' near food sites",
-      "url": "https://www.npr.org/2025/06/28/nx-s1-5449587/israel-gaza-haaretz-report",
-      "word_count": 1021,
-      "summary_length": 55
+      "title": "Cristiano Ronaldo reveals why he rejected FIFA Club World Cup 2025 clubs to stay at Al Nassr",
+      "url": "https://worldsoccertalk.com/news/cristiano-ronaldo-reveals-why-he-rejected-fifa-club-world-cup-2025-clubs-to-stay-at-al-nassr/",
+      "word_count": 566,
+      "summary_length": 80
     },
     {
-      "title": "Scientists turn beer yeast into mini factories for smart drugs",
-      "url": "https://www.sciencedaily.com/releases/2025/06/250627234114.htm",
-      "word_count": 485,
-      "summary_length": 65
+      "title": "Javier Mascherano makes clear message to Lionel Messi, Inter Miami ahead of PSG game in FIFA Club World Cup",
+      "url": "https://worldsoccertalk.com/news/javier-mascherano-makes-clear-message-to-lionel-messi-inter-miami-ahead-of-psg-game-in-fifa-club-world-cup/",
+      "word_count": 530,
+      "summary_length": 64
+    },
+    {
+      "title": "This Affordable Moisturizer May Be The Highest-Rated Product We've Ever Seen",
+      "url": "https://www.buzzfeed.com/tessaflores/this-affordable-moisturizer-may-be-the-highest-rated",
+      "word_count": 570,
+      "summary_length": 64
+    },
+    {
+      "title": "Wind Power\u2019s Subsidy Sham: Grumet\u2019s Plea Ignores 40 Years of Unreliability",
+      "url": "https://wattsupwiththat.com/2025/06/28/10323801/",
+      "word_count": 779,
+      "summary_length": 72
+    },
+    {
+      "title": "Elon Musk doubles down on criticism of \u2018Big Beautiful Bill\u2019 calling it \u2018utterly insane\u2019 and \u2018political suicide\u2019",
+      "url": "https://nypost.com/2025/06/28/us-news/elon-musk-doubles-down-on-criticism-of-big-beautiful-bill-calling-it-utterly-insane-and-political-suicide/",
+      "word_count": 329,
+      "summary_length": 68
+    },
+    {
+      "title": "Nkunku fires Chelsea into Club World Cup quarters as Benfica downed",
+      "url": "https://sports.yahoo.com/article/nkunku-fires-chelsea-club-world-005440731.html",
+      "word_count": 336,
+      "summary_length": 21
     }
   ]
 }
