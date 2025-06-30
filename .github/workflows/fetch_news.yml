@@ -28,7 +28,8 @@ jobs:
       - name: 📰 Run News Fetcher
         run: |
           echo "🔐 Available ENV: $NEWS_API"
-          python backend/news_fetcher.py
+          cd Deep_Learning/FeedFlash
+          python -m backend.news_fetcher
         env:
           NEWS_API: ${{ secrets.NEWS_API }}
           PYTHONPATH: ${{ github.workspace }}/Deep_Learning/FeedFlash
