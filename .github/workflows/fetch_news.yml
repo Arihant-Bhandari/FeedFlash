@@ -28,7 +28,6 @@ jobs:
       - name: 📰 Run News Fetcher
         run: |
           echo "🔐 Available ENV: $NEWS_API"
-          cd FeedFlash
           python -m backend.news_fetcher
         env:
           NEWS_API: ${{ secrets.NEWS_API }}
