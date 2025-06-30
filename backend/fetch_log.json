@@ -1,12 +1,96 @@
 {
-  "timestamp": "2025-06-30T03:48:14.510787",
-  "article_count": 28,
+  "timestamp": "2025-06-30T11:03:02.666050",
+  "article_count": 30,
   "logs": [
+    {
+      "title": "OpenAI and Microsoft are dueling over AGI. These real-world tests will prove when AI is really better than humans.",
+      "url": "https://www.businessinsider.com/openai-microsoft-duel-agi-real-world-tests-ai-better-humans-2025-6",
+      "word_count": 1056,
+      "summary_length": 65
+    },
+    {
+      "title": "Paul dominates Chavez and calls out big names",
+      "url": "https://www.bbc.com/sport/boxing/articles/cvgn9vvnl8zo",
+      "word_count": 245,
+      "summary_length": 20
+    },
+    {
+      "title": "Open-Source Knob Packed with Precision",
+      "url": "https://hackaday.com/2025/06/28/open-source-knob-packed-with-precision/",
+      "word_count": 265,
+      "summary_length": 51
+    },
+    {
+      "title": "Iran could start enriching uranium for bomb within months, UN nuclear chief says",
+      "url": "https://www.bbc.com/news/articles/c79qeqg89g2o",
+      "word_count": 633,
+      "summary_length": 20
+    },
+    {
+      "title": "The new must-have for CEOs: An AI whisperer",
+      "url": "https://www.businessinsider.com/ceo-ai-whisperer-adviser-2025-6",
+      "word_count": 937,
+      "summary_length": 68
+    },
+    {
+      "title": "A billion choices",
+      "url": "https://seths.blog/2025/06/a-billion-choices/",
+      "word_count": 331,
+      "summary_length": 47
+    },
+    {
+      "title": "Maresca questions US hosting Club World Cup",
+      "url": "https://www.bbc.com/sport/football/articles/cx2nq51wd1yo",
+      "word_count": 347,
+      "summary_length": 18
+    },
+    {
+      "title": "The CEO building the 'Ikea of factories' wants to democratize semiconductor production",
+      "url": "https://www.businessinsider.com/nanotronics-ceo-interview-semiconductor-fab-factories-local-2025-6",
+      "word_count": 860,
+      "summary_length": 71
+    },
+    {
+      "title": "When will F1 movie be on Apple TV? Here\u2019s the streaming release date",
+      "url": "https://9to5mac.com/2025/06/29/f1-movie-when-stream-apple-tv/",
+      "word_count": 381,
+      "summary_length": 82
+    },
+    {
+      "title": "European U21 champions again - but who could make World Cup?",
+      "url": "https://www.bbc.com/sport/football/articles/c62gz7w5jpgo",
+      "word_count": 396,
+      "summary_length": 30
+    },
     {
       "title": "Chelsea beat Benfica to reach FIFA Club World Cup quarterfinal",
       "url": "https://www.aljazeera.com/sports/2025/6/29/chelsea-beat-benfica-to-reach-fifa-club-world-cup-quarterfinal",
       "word_count": 760,
       "summary_length": 68
+    },
+    {
+      "title": "Kremlin says Europe will feel the recoil from its 'illegal' sanctions on Russia",
+      "url": "https://ca.news.yahoo.com/kremlin-says-europe-feel-recoil-095013464.html",
+      "word_count": 322,
+      "summary_length": 74
+    },
+    {
+      "title": "'Tuipulotu finds feet again and hails world-class Ringrose and Russell'",
+      "url": "https://www.bbc.com/sport/rugby-union/articles/cly8g1e5578o",
+      "word_count": 510,
+      "summary_length": 18
+    },
+    {
+      "title": "Concert tickets are wildly expensive. What would it take to actually make them affordable?",
+      "url": "https://www.businessinsider.com/ticket-prices-expensive-cheap-beyonce-taylor-swift-ticketmaster-stubhub-seatgeek-2025-6",
+      "word_count": 3248,
+      "summary_length": 66
+    },
+    {
+      "title": "If You Own an iPhone, Amazon Is Offering a Free AirTag Just Before Prime Day",
+      "url": "https://gizmodo.com/if-you-own-an-iphone-amazon-is-offering-a-free-airtag-prime-day-2000619896",
+      "word_count": 399,
+      "summary_length": 75
     },
     {
       "title": "The Italian Pavilion Expo 2025 Osaka / Mario Cucinella Architects + Yoshiki Matsuda Architects",
@@ -15,160 +99,88 @@
       "summary_length": 69
     },
     {
+      "title": "A millennial explains how he made $500K secretly working 3 remote jobs in tech",
+      "url": "https://www.businessinsider.com/how-millennial-earned-500k-annually-working-three-remote-tech-jobs-2025-6",
+      "word_count": 876,
+      "summary_length": 73
+    },
+    {
+      "title": "Humphries beats Aspinall in US Darts Masters final",
+      "url": "https://www.bbc.com/sport/darts/articles/cp825zlw2y1o",
+      "word_count": 113,
+      "summary_length": 22
+    },
+    {
+      "title": "Jake Paul Claims Unanimous Decision Victory Over Julio Cesar Chavez Jr.",
+      "url": "https://hypebeast.com/2025/6/jake-paul-julio-cesar-chavez-jr-unanimous-decision-boxing-victory-news",
+      "word_count": 347,
+      "summary_length": 61
+    },
+    {
+      "title": "Jake Paul defeats Chavez Jr by unanimous decision in boxing fight",
+      "url": "https://www.aljazeera.com/sports/2025/6/29/jake-paul-defeats-chavez-jr-by-unanimous-decision-in-boxing-fight",
+      "word_count": 700,
+      "summary_length": 57
+    },
+    {
+      "title": "Messi mania turns Miami into America's soccer city - as big decisions loom",
+      "url": "https://www.bbc.com/sport/football/articles/ckgj1494g1jo",
+      "word_count": 571,
+      "summary_length": 57
+    },
+    {
+      "title": "I took a $12-an-hour job at Whole Foods after losing my job in higher education. It changed the trajectory of my life.",
+      "url": "https://www.businessinsider.com/took-12-hour-job-whole-foods-after-layoff-higher-ed-2025-6",
+      "word_count": 1089,
+      "summary_length": 72
+    },
+    {
+      "title": "'It's a joke! It's NOT football!' - Maresca fumes after two-hour CWC weather delay",
+      "url": "https://www.skysports.com/football/news/11095/13389972/chelsea-boss-enzo-maresca-fumes-after-two-hour-club-world-cup-weather-delay-its-a-joke-its-not-football",
+      "word_count": 1968,
+      "summary_length": 76
+    },
+    {
+      "title": "We can still save education \u2014 and that\u2019s the key to saving democracy",
+      "url": "https://www.salon.com/2025/06/29/we-can-still-save-education-and-thats-the-key-to-saving-democracy/",
+      "word_count": 3311,
+      "summary_length": 66
+    },
+    {
+      "title": "Never Struggle Again: Quick Shortcut for Accented Uppercase Letters on PC",
+      "url": "https://www.talkandroid.com/510353-never-struggle-again-quick-shortcut-for-accented-uppercase-letters-on-pc/",
+      "word_count": 895,
+      "summary_length": 59
+    },
+    {
+      "title": "Charlize Theron Fears \u2018Millions of People\u2026Are Going to Die\u2019 Because of Foreign Aid Cuts",
+      "url": "https://variety.com/2025/politics/columns/charlize-theron-cuts-to-foreign-aid-millions-people-to-die-1236443570/",
+      "word_count": 501,
+      "summary_length": 69
+    },
+    {
+      "title": "UFC 317 takeaways: New challengers welcome!",
+      "url": "https://www.espn.com/mma/story/_/id/45607253/joshua-van-ilia-topuria-represent-exciting-changes-lightweight-flyweight",
+      "word_count": 971,
+      "summary_length": 56
+    },
+    {
       "title": "Official Look at the FC Porto x New Balance 2002R",
       "url": "https://hypebeast.com/2025/6/fc-porto-new-balance-2002r-u2002rfp-release-info",
       "word_count": 202,
       "summary_length": 61
     },
     {
-      "title": "After two-hour weather delay, Chelsea outlast Benfica in Club World Cup win",
-      "url": "https://www.foxsports.com/stories/soccer/nkunkus-extratime-goal-sparks-chelsea-to-weatherdelayed-41-win-over-benfica-in-club-world-cup",
-      "word_count": 546,
-      "summary_length": 78
-    },
-    {
-      "title": "Chelsea outlast Benfica, weather delay to progress",
-      "url": "https://www.espn.com/soccer/report/_/gameId/735945",
-      "word_count": 412,
-      "summary_length": 69
-    },
-    {
-      "title": "Steven Spielberg's Worst Movie, According To Letterboxd Users",
-      "url": "https://www.slashfilm.com/1893968/steven-spielberg-worst-movie-letterboxd-users-something-evil/",
-      "word_count": 407,
-      "summary_length": 57
-    },
-    {
-      "title": "\u201cMy Parents Died Yesterday\u201d: Woman Cuts Narcissistic Mom Off For Her Mental Health, Gets Threats",
-      "url": "https://www.boredpanda.com/mom-threatening-cps-after-no-contact/",
-      "word_count": 1502,
+      "title": "10 Sunday Reads",
+      "url": "https://ritholtz.com/2025/06/10-sunday-reads-188/",
+      "word_count": 461,
       "summary_length": 74
     },
     {
-      "title": "Henry Golding Explains Why James Bond Role Is \u201cEvery Actor\u2019s Kind Of Nightmare\u201d",
-      "url": "http://deadline.com/2025/06/henry-golding-james-bond-role-every-actors-nightmare-1236445301/",
-      "word_count": 331,
-      "summary_length": 58
-    },
-    {
-      "title": "Kids Aren\u2019t Allowed To Ride A Golden Retriever As A Horse, Dog Owner Shocked By Parents\u2019 Reaction",
-      "url": "https://www.boredpanda.com/entitled-parents-kids-ride-dog/",
-      "word_count": 782,
-      "summary_length": 91
-    },
-    {
-      "title": "Tomorrows World Today S09E04 1080p WEB h264-FREQUENCY",
-      "url": "https://post.rlsbb.cc/tomorrows-world-today-s09e04-1080p-web-h264-frequency/",
-      "word_count": 184,
-      "summary_length": 74
-    },
-    {
-      "title": "Zohran Mamdani\u2019s fiscal armageddon could bring NYC back to the bad old days",
-      "url": "https://nypost.com/2025/06/28/business/zohran-mamdanis-fiscal-armageddon-could-bring-nyc-back-to-the-bad-old-days/",
-      "word_count": 1012,
-      "summary_length": 62
-    },
-    {
-      "title": "1940s Women\u2019s Shorts: A New Era of Style and Practicality",
-      "url": "https://www.vintag.es/2025/06/1940s-womens-shorts.html",
-      "word_count": 170,
-      "summary_length": 72
-    },
-    {
-      "title": "Articles On: Fairness, Middle East, US Dominance, TikTok, Cameras, Central Bank, Trade, and Chips",
-      "url": "https://www.hoover.org/research/articles-fairness-middle-east-us-dominance-tiktok-cameras-central-bank-trade-and-chips",
-      "word_count": 203,
-      "summary_length": 65
-    },
-    {
-      "title": "\u201cIt Gets Juicy\u201d: Company Tries To Deny Woman Maternity Leave, Underestimates Her",
-      "url": "https://www.boredpanda.com/hr-tried-not-pay-maternity-leave-fake-reason/",
-      "word_count": 630,
-      "summary_length": 80
-    },
-    {
-      "title": "Chelsea overcomes Club World Cup weather delay, set up Palmeiras quarter-final",
-      "url": "https://japantoday.com/category/sports/chelsea-overcome-club-world-cup-weather-delay-set-up-palmeiras-quarter-final",
-      "word_count": 709,
-      "summary_length": 20
-    },
-    {
-      "title": "Chelsea boss lashes out at Club World Cup organisers after yet another weather delay",
-      "url": "https://www.channelnewsasia.com/sport/chelsea-boss-lashes-out-club-world-cup-organisers-after-yet-another-weather-delay-5209751",
-      "word_count": 333,
-      "summary_length": 62
-    },
-    {
-      "title": "xAI Grok 3.5 Renamed Grok 4 and Has Specialized Coding Model",
-      "url": "https://www.nextbigfuture.com/2025/06/xai-grok-3-5-renamed-grok-4-and-has-specialized-coding-model.html",
-      "word_count": 530,
-      "summary_length": 70
-    },
-    {
-      "title": " Chelsea oust Benfica, face Palmeiras in Club World Cup quarters",
-      "url": "https://onefootball.com/en/news/chelsea-oust-benfica-face-palmeiras-in-club-world-cup-quarters-41304913",
-      "word_count": 584,
-      "summary_length": 72
-    },
-    {
-      "title": "Hamilton hails Ferrari after \"fantastic\" qualifying result for the Maranello-based team",
-      "url": "https://www.f1technical.net/news/27195",
-      "word_count": 499,
-      "summary_length": 69
-    },
-    {
-      "title": "Delta Cancels 900+ Flights\u2014Internal Document Reveals Airline Will Pay For Competitor Flights, Hotels, And Rental Cars",
-      "url": "https://viewfromthewing.com/delta-cancels-900-flights-internal-document-reveals-airline-will-pay-for-competitor-flights-hotels-and-rental-cars/",
-      "word_count": 269,
-      "summary_length": 64
-    },
-    {
-      "title": "Vibrant Group Full Year 2025 Earnings: EPS: S$0.011 (vs S$0.001 in FY 2024)",
-      "url": "https://finance.yahoo.com/news/vibrant-group-full-2025-earnings-001447569.html",
-      "word_count": 258,
-      "summary_length": 66
-    },
-    {
-      "title": "Starmer says he was 'heavily focused' on world affairs before U-turn on welfare",
-      "url": "https://news.sky.com/story/starmer-says-he-was-heavily-focused-on-world-affairs-before-u-turn-on-welfare-bill-13389954",
-      "word_count": 391,
-      "summary_length": 66
-    },
-    {
-      "title": "Cristiano Ronaldo reveals why he rejected FIFA Club World Cup 2025 clubs to stay at Al Nassr",
-      "url": "https://worldsoccertalk.com/news/cristiano-ronaldo-reveals-why-he-rejected-fifa-club-world-cup-2025-clubs-to-stay-at-al-nassr/",
-      "word_count": 566,
-      "summary_length": 80
-    },
-    {
-      "title": "Javier Mascherano makes clear message to Lionel Messi, Inter Miami ahead of PSG game in FIFA Club World Cup",
-      "url": "https://worldsoccertalk.com/news/javier-mascherano-makes-clear-message-to-lionel-messi-inter-miami-ahead-of-psg-game-in-fifa-club-world-cup/",
-      "word_count": 530,
-      "summary_length": 64
-    },
-    {
-      "title": "This Affordable Moisturizer May Be The Highest-Rated Product We've Ever Seen",
-      "url": "https://www.buzzfeed.com/tessaflores/this-affordable-moisturizer-may-be-the-highest-rated",
-      "word_count": 570,
-      "summary_length": 64
-    },
-    {
-      "title": "Wind Power\u2019s Subsidy Sham: Grumet\u2019s Plea Ignores 40 Years of Unreliability",
-      "url": "https://wattsupwiththat.com/2025/06/28/10323801/",
-      "word_count": 779,
-      "summary_length": 72
-    },
-    {
-      "title": "Elon Musk doubles down on criticism of \u2018Big Beautiful Bill\u2019 calling it \u2018utterly insane\u2019 and \u2018political suicide\u2019",
-      "url": "https://nypost.com/2025/06/28/us-news/elon-musk-doubles-down-on-criticism-of-big-beautiful-bill-calling-it-utterly-insane-and-political-suicide/",
-      "word_count": 329,
-      "summary_length": 68
-    },
-    {
-      "title": "Nkunku fires Chelsea into Club World Cup quarters as Benfica downed",
-      "url": "https://sports.yahoo.com/article/nkunku-fires-chelsea-club-world-005440731.html",
-      "word_count": 336,
-      "summary_length": 21
+      "title": "VW's ID. Buzz fully autonomous robotaxi set for 2026 debut",
+      "url": "https://newatlas.com/automotive/volkswagen-moia-id-buzz/",
+      "word_count": 660,
+      "summary_length": 71
     }
   ]
 }
