@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 from newspaper import Article
 from newsapi import NewsApiClient
-from ..app.summarizer import summarize_text
+from app.summarizer import summarize_text
 
 API_KEY = os.getenv("NEWS_API")
 if not API_KEY:
