@@ -1,186 +1,186 @@
 {
-  "timestamp": "2025-07-04T03:42:17.247244",
+  "timestamp": "2025-07-05T03:38:53.155583",
   "article_count": 30,
   "logs": [
     {
-      "title": "Trump calls for US central bank head to quit immediately",
-      "url": "https://www.bbc.com/news/articles/crmv4ldv923o",
-      "word_count": 452,
-      "summary_length": 66
+      "title": "AI Might Kill Us All (With Carbon Emissions)",
+      "url": "https://hackaday.com/2025/07/03/ai-might-kill-us-all-with-carbon-emissions/",
+      "word_count": 338,
+      "summary_length": 79
     },
     {
-      "title": "Tesla\u2019s Numbers Are In, and They\u2019re Not Good",
-      "url": "https://gizmodo.com/teslas-numbers-are-in-and-theyre-not-good-2000623670",
-      "word_count": 598,
-      "summary_length": 70
-    },
-    {
-      "title": "Tech Talk: NFC is getting an upgrade. But how does NFC work?",
-      "url": "https://www.androidcentral.com/phones/tech-talk-nfc-is-getting-an-upgrade-but-how-does-nfc-work",
-      "word_count": 822,
-      "summary_length": 66
-    },
-    {
-      "title": "Scientists just simulated the \u201cimpossible\u201d \u2014 fault-tolerant quantum code cracked at last",
-      "url": "https://www.sciencedaily.com/releases/2025/07/250702214157.htm",
-      "word_count": 908,
-      "summary_length": 70
-    },
-    {
-      "title": "Microsoft Just Fired About 9,000 People While Making Billions",
-      "url": "https://gizmodo.com/microsoft-just-fired-about-9000-people-while-making-billions-2000623667",
-      "word_count": 660,
-      "summary_length": 75
-    },
-    {
-      "title": "The best retrofit smart door lock is now available in the U.S.",
-      "url": "https://www.androidcentral.com/accessories/smart-home/nuki-best-retrofit-smart-door-lock-is-now-available-in-the-u-s",
-      "word_count": 396,
-      "summary_length": 65
-    },
-    {
-      "title": "Google Home makes it even easier to share your smart home devices with others",
-      "url": "https://www.androidcentral.com/accessories/smart-home/google-home-makes-it-even-easier-to-share-your-smart-home-devices-with-others",
-      "word_count": 422,
-      "summary_length": 67
-    },
-    {
-      "title": "Is the world's largest CCTV surveillance camera vendor going to be the next Huawei? Canada bans Hikvision amidst security fears",
-      "url": "https://www.techradar.com/pro/is-the-worlds-largest-cctv-surveillance-camera-vendor-going-to-be-the-next-huawei-canada-gov-bans-hikvision-amidst-security-fears",
-      "word_count": 551,
-      "summary_length": 66
-    },
-    {
-      "title": "Deafness reversed: Single injection brings hearing back within weeks",
-      "url": "https://www.sciencedaily.com/releases/2025/07/250702214148.htm",
-      "word_count": 530,
-      "summary_length": 68
-    },
-    {
-      "title": "How Dillard\u2019s Is Transforming The Shopping Experience With Mobile Tech",
-      "url": "https://www.redmondpie.com/how-dillards-is-transforming-the-shopping-experience-with-mobile-tech/",
-      "word_count": 1151,
-      "summary_length": 73
-    },
-    {
-      "title": "Taoiseach to attend Expo 25 following talks with Japan PM",
-      "url": "https://www.rte.ie/news/ireland/2025/0703/1521587-taoiseach-japan/",
-      "word_count": 463,
-      "summary_length": 70
-    },
-    {
-      "title": "Taoiseach to attend Expo 25 following talks with Japan PM",
-      "url": "https://www.rte.ie/news/ireland/2025/0703/1521587-taoiseach-expo-25/",
-      "word_count": 463,
-      "summary_length": 70
-    },
-    {
-      "title": "\u2018Nine Perfect Strangers\u2019 Season 2 Ending Explained: It\u2019s All About Connections",
-      "url": "http://deadline.com/2025/07/nine-perfect-strangers-season-2-ending-explained-1236448620/",
-      "word_count": 1418,
-      "summary_length": 60
-    },
-    {
-      "title": "Tesla competitor BYD axes Mexico factory plans",
-      "url": "https://www.businessinsider.com/byd-halts-mexico-factory-plans-trump-tariffs-brazil-americas-li-2025-7",
-      "word_count": 517,
-      "summary_length": 77
-    },
-    {
-      "title": "A Q-Tip and spotless car were key evidence linking Bryan Kohberger to murders of 4 Idaho students",
-      "url": "https://www.yahoo.com/news/q-tip-spotless-car-were-003329007.html",
-      "word_count": 1241,
-      "summary_length": 73
-    },
-    {
-      "title": "Who were the Galatians? How did they get where they were?",
-      "url": "https://languagelog.ldc.upenn.edu/nll/?p=69732",
-      "word_count": 669,
-      "summary_length": 68
-    },
-    {
-      "title": "2025\u2019s Midway Point: A California Assessment",
-      "url": "https://www.hoover.org/research/2025s-midway-point-california-assessment",
-      "word_count": 1544,
-      "summary_length": 66
-    },
-    {
-      "title": "Rob McElhenney Addresses Name Change: \u201cCall Me Whatever You Want\u201d",
-      "url": "http://deadline.com/2025/07/rob-mcelhenney-addresses-name-change-1236448650/",
-      "word_count": 305,
-      "summary_length": 65
-    },
-    {
-      "title": "\u201cA national disgrace\u201d: Republicans blast Pentagon\u2019s \u201cunacceptable\u201d Ukrainian weapons freeze",
-      "url": "https://www.salon.com/2025/07/02/a-national-disgrace-republicans-blast-pentagons-unacceptable-ukrainian-weapons-freeze/",
-      "word_count": 287,
-      "summary_length": 73
-    },
-    {
-      "title": "Checking in on the \u201cgoing all-in on alienating your core consumers\u201d strategy",
-      "url": "https://www.lawyersgunsmoneyblog.com/2025/07/checking-in-on-the-going-all-in-on-alienating-your-core-consumers-strategy",
-      "word_count": 305,
-      "summary_length": 72
-    },
-    {
-      "title": "TN Govt. Saves School Children From Smut Like Magic Tree House, Calvin & Hobbes, & A Light In The Attic",
-      "url": "https://www.techdirt.com/2025/07/02/tn-govt-saves-school-children-from-smut-like-magic-tree-house-calvin-hobbes-a-light-in-the-attic/",
-      "word_count": 858,
-      "summary_length": 62
-    },
-    {
-      "title": "Mike Johnson Stares Down Hardliners",
-      "url": "https://politicalwire.com/2025/07/02/mike-johnson-stares-down-hardliners/",
-      "word_count": 113,
-      "summary_length": 71
-    },
-    {
-      "title": "Fractured House GOP Fights Over Trump\u2019s Bill",
-      "url": "https://politicalwire.com/2025/07/02/fractured-house-gop-fights-over-trumps-bill/",
-      "word_count": 157,
-      "summary_length": 78
-    },
-    {
-      "title": "Jurassic World: Rebirth was filmed in Thailand. Here are the featured locations you can visit",
-      "url": "https://cnalifestyle.channelnewsasia.com/travel/jurassic-world-rebirth-thailand-locations-467326",
-      "word_count": 121,
-      "summary_length": 19
-    },
-    {
-      "title": "Microsoft to cut up to 9,000 jobs as it invests in AI",
-      "url": "https://www.bbc.com/news/articles/cdxl0w1w394o?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
-      "word_count": 433,
-      "summary_length": 78
-    },
-    {
-      "title": "How USMNT Gold Cup hero Diego Luna quickly became a Mauricio Pochettino favorite after flirting with Mexico",
-      "url": "https://www.cbssports.com/soccer/news/how-usmnt-gold-cup-hero-diego-luna-quickly-became-a-mauricio-pochettino-favorite-after-flirting-with-mexico/",
-      "word_count": 1421,
-      "summary_length": 58
-    },
-    {
-      "title": "Teen social media ban: Answering every question about Australia\u2019s \u2018world-first\u2019 plan",
-      "url": "http://www.crikey.com.au/2025/07/03/teen-social-media-ban-questions-faqs/",
-      "word_count": 1665,
-      "summary_length": 74
-    },
-    {
-      "title": "Your Roku has secret menus and screens - here's how to unlock them",
-      "url": "https://www.zdnet.com/home-and-office/home-entertainment/your-roku-has-secret-menus-and-screens-heres-how-to-unlock-them/",
-      "word_count": 230,
+      "title": "Linkind EP6 Smart Hexagon Panel Lights Review: Lighting That Communicates",
+      "url": "https://www.yankodesign.com/2025/07/03/linkind-ep6-smart-hexagon-panel-lights-review-lighting-that-communicates/",
+      "word_count": 2323,
       "summary_length": 80
     },
     {
-      "title": "Modern Victorian House Guide: Style, Renovation & Tips",
-      "url": "https://ahouseinthehills.com/modern-victorian-house-guide-style-renovation-tips/",
-      "word_count": 1960,
+      "title": "Ari Aster Talks \u201cVery Frightening\u201d Future Of AI As Some Treat The Tech \u201cAs A God\u201d",
+      "url": "http://deadline.com/2025/07/ari-aster-very-frightening-future-ai-1236449522/",
+      "word_count": 343,
+      "summary_length": 64
+    },
+    {
+      "title": "'Googling' can stifle creativity, according to new research",
+      "url": "https://newatlas.com/medical/internet-access-creativity-fixation-effect/",
+      "word_count": 983,
+      "summary_length": 79
+    },
+    {
+      "title": "Kubernetes is a symptom, not a solution",
+      "url": "https://andreafortuna.org/2025/06/20/unpopular-opinion-kubernetes-is-a-symptom-not-a-solution",
+      "word_count": 1731,
+      "summary_length": 59
+    },
+    {
+      "title": "Cruise Passenger Went on a Solo Hike In Alaska. When It Was Time to Reboard, They Were Nowhere to Be Found",
+      "url": "https://people.com/cruise-passenger-disappears-while-hiking-alone-in-alaska-11766629",
+      "word_count": 511,
+      "summary_length": 67
+    },
+    {
+      "title": "Beware the New Eugenics",
+      "url": "http://www.newgeography.com/content/008595-beware-new-eugenics",
+      "word_count": 560,
+      "summary_length": 62
+    },
+    {
+      "title": "Brand USA CEO: Budget Bill Means 'Significant Recalibration of Operations'",
+      "url": "http://skift.com/2025/07/03/brand-usa-ceo-budget-bill-means-significant-recalibration-of-operations/",
+      "word_count": 769,
+      "summary_length": 67
+    },
+    {
+      "title": "Flavor Flav Says U.S. Needs To Ban Guns, 'I Fear For My Kids'",
+      "url": "https://www.tmz.com/2025/07/03/flavor-flav-gun-ban-op-ed/",
+      "word_count": 341,
+      "summary_length": 71
+    },
+    {
+      "title": "\u201cBro retired from fighting grandpas\u201d: Jake Paul has officially been given a world boxing ranking",
+      "url": "https://www.dailydot.com/news/jake-paul-boxing-world-ranking/",
+      "word_count": 407,
+      "summary_length": 63
+    },
+    {
+      "title": "USA vs. Mexico: Why Christian Pulisic And Other Stars Aren't At The Gold Cup",
+      "url": "https://www.foxsports.com/stories/soccer/why-christian-pulisic-gio-reyna-other-u-s-stars-wont-play-vs-mexico",
+      "word_count": 634,
+      "summary_length": 64
+    },
+    {
+      "title": "Amazon Hits 1 Million Robots, Should Human Workers Be Worried?: Company Says 'Creating New Career Opportunities'",
+      "url": "https://finance.yahoo.com/news/amazon-hits-1-million-robots-013112699.html",
+      "word_count": 397,
+      "summary_length": 72
+    },
+    {
+      "title": "What Is 'Dos a Cero'? A History Of The USA-Mexico Rivalry's Signature Scoreline",
+      "url": "https://www.foxsports.com/stories/soccer/what-dos-cero-history-usa-mexico-rivalrys-signature-scoreline",
+      "word_count": 1377,
+      "summary_length": 61
+    },
+    {
+      "title": "Windows_EndPoint_Audit \u2013 Endpoint Security Auditing Toolkit",
+      "url": "https://www.darknet.org.uk/2025/07/windows_endpoint_audit-endpoint-security-auditing-toolkit/",
+      "word_count": 571,
+      "summary_length": 57
+    },
+    {
+      "title": "The Return Trends At Spritzer Bhd (KLSE:SPRITZER) Look Promising",
+      "url": "https://finance.yahoo.com/news/return-trends-spritzer-bhd-klse-002155295.html",
+      "word_count": 437,
+      "summary_length": 57
+    },
+    {
+      "title": "Neto grieves Jota's death as Chelsea face Palmeiras in Club World Cup",
+      "url": "https://www.channelnewsasia.com/sport/neto-grieves-jotas-death-chelsea-face-palmeiras-club-world-cup-5219866",
+      "word_count": 415,
+      "summary_length": 70
+    },
+    {
+      "title": "New managers making instant impact as Club World Cup quarter-finals take shape",
+      "url": "https://www.channelnewsasia.com/sport/new-managers-making-instant-impact-club-world-cup-quarter-finals-take-shape-5219861",
+      "word_count": 520,
+      "summary_length": 63
+    },
+    {
+      "title": "CBS News poll on why Americans fly the flag",
+      "url": "https://www.cbsnews.com/news/cbs-news-poll-on-why-americans-fly-the-flag/",
+      "word_count": 406,
+      "summary_length": 70
+    },
+    {
+      "title": "Boiling in Brussels: Climate fights and Orb\u00e1n vs. Pride",
+      "url": "https://www.politico.eu/podcast/eu-confidential/boiling-in-brussels-climate-fights-and-orban-vs-pride/",
+      "word_count": 141,
+      "summary_length": 51
+    },
+    {
+      "title": "Winona's Jake Timm finding his footing with World of Outlaws",
+      "url": "https://www.postbulletin.com/sports/gopher-50-notebook-winonas-timm-finding-his-footing-with",
+      "word_count": 829,
       "summary_length": 66
     },
     {
-      "title": "Luna leads U.S. past Guatemala to Gold Cup final",
-      "url": "https://www.espn.com/soccer/report/_/gameId/735346",
-      "word_count": 371,
-      "summary_length": 75
+      "title": "In Matt Tyrnauer\u2019s \u2018Nobu,\u2019 A Master Sushi Chef Creates A Luxury Empire In Collab With Robert De Niro, Meir Teper",
+      "url": "http://deadline.com/2025/07/nobu-documentary-director-matt-tyrnauer-interview-1236449490/",
+      "word_count": 1619,
+      "summary_length": 61
+    },
+    {
+      "title": "Sabah attracts growing interest from Kazakhstan in tourism and business",
+      "url": "https://www.thestar.com.my/news/nation/2025/07/04/sabah-attracts-growing-interest-from-kazakhstan-in-tourism-and-business",
+      "word_count": 441,
+      "summary_length": 69
+    },
+    {
+      "title": "3 ASX Penny Stocks With Market Caps Over A$70M",
+      "url": "https://finance.yahoo.com/news/3-asx-penny-stocks-market-030450845.html",
+      "word_count": 369,
+      "summary_length": 47
+    },
+    {
+      "title": "The History and Evolution of Probe Lenses: From Innovation to Cinematic Excellence",
+      "url": "https://www.newsshooter.com/2025/07/03/the-history-and-evolution-of-probe-lenses-from-innovation-to-cinematic-excellence/",
+      "word_count": 2162,
+      "summary_length": 63
+    },
+    {
+      "title": "Trinity Rodman Cheered on Ben Shelton at Wimbledon",
+      "url": "http://www.thecut.com/article/trinity-rodman-ben-shelton-wimbledon.html",
+      "word_count": 203,
+      "summary_length": 67
+    },
+    {
+      "title": "LHDN identifies 845 cases for action under Ops Tanjong in Penang",
+      "url": "https://www.thestar.com.my/news/nation/2025/07/04/lhdn-identifies-845-cases-for-action-under-ops-tanjong-in-penang",
+      "word_count": 235,
+      "summary_length": 59
+    },
+    {
+      "title": "Red Bull has \"been looking at what went wrong\" at the Red Bull Ring, claims Verstappen",
+      "url": "https://www.f1technical.net/news/27239",
+      "word_count": 448,
+      "summary_length": 19
+    },
+    {
+      "title": "Alexander-Arnold settling in as Real Madrid target Club World Cup glory",
+      "url": "https://sports.yahoo.com/article/alexander-arnold-settling-real-madrid-013658249.html",
+      "word_count": 710,
+      "summary_length": 66
+    },
+    {
+      "title": "74% off Clearance sale on Methven Aio Shower System only $499 (RRP $1992) +Free shipping",
+      "url": "https://www.ozbargain.com.au/node/913610",
+      "word_count": 182,
+      "summary_length": 69
+    },
+    {
+      "title": "Fund Bet on Samsung Breakthrough Shows Path for More Kospi Gains",
+      "url": "https://finance.yahoo.com/news/asian-fund-pivots-samsung-bet-230000118.html",
+      "word_count": 342,
+      "summary_length": 61
     }
   ]
 }
