@@ -4,7 +4,7 @@ import torch
 # Global variables for lazy loading
 _model = None
 _tokenizer = None
-MODEL_NAME = "feedflash-flan-t5"  # Updated model name
+MODEL_NAME = "Arihant-Bhandari/feedflash-flan-t5"  # Updated model name
 
 def _load_model():
     """Lazy load the model and tokenizer."""
