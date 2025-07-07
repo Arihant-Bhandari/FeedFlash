@@ -39,34 +39,30 @@ def extract_full_article(url):
         return ""
 
 def main():
-    """Main function to fetch, process, and save news summaries."""
     print("🚀 Starting news fetching and summarization...")
 
     from_date = (datetime.utcnow() - timedelta(days=1)).strftime("%Y-%m-%d")
     to_date = datetime.utcnow().strftime("%Y-%m-%d")
 
-    # Fetch 30 international and 20 India-focused articles
-    target_counts = {"international": 30, "india": 20}
+    # Set target counts: 20 international, 10 Indian, no genre restrictions
+    target_counts = {"international": 20, "india": 10}
     queries = {
-        "international": "technology OR politics OR world -India",
-        "india": "India AND (technology OR politics OR world)"
+        "international": "news OR world OR global OR politics OR economy OR technology",
+        "india": "India OR Indian OR Bharat OR Desh"
     }
     results = []
     logs = []
-    fallback_attempts = 0
-    max_fallbacks = 10
 
     for category, count in target_counts.items():
         collected = 0
         attempts = 0
-        while collected < count and attempts < (max_fallbacks + 1):
+        while collected < count and attempts < 10:
             articles = fetch_news(
                 q=queries[category],
                 from_date=from_date,
                 to_date=to_date,
                 page_size=50
             )
-            print(f"📰 Fetched {len(articles)} {category} articles (attempt {attempts+1})")
             for art in articles:
                 if collected >= count:
                     break
@@ -75,50 +71,61 @@ def main():
                     continue
                 full_text = extract_full_article(url)
                 word_count = len(full_text.split())
-                # Enforce word count limits
                 if not full_text or word_count < 150 or word_count > 2500:
                     continue
-                # Add prompt prefix
                 prompt_text = "Summarize the following news article: " + full_text
-                try:
-                    summary = summarize_text(prompt_text)
-                except Exception as e:
-                    print(f"⚠️ Failed to summarize article {url}: {e}")
-                    continue
                 results.append({
                     "title": art.get("title"),
                     "source": art.get("source", {}).get("name"),
                     "publishedAt": art.get("publishedAt"),
                     "url": url,
-                    "summary": summary
-                })
-                logs.append({
-                    "title": art.get("title"),
-                    "url": url,
-                    "word_count": word_count,
-                    "summary_length": len(summary.split()),
+                    "prompt_text": prompt_text,
                     "category": category
                 })
                 collected += 1
+                if collected % 5 == 0:
+                    print(f"✅ Collected {collected} {category} articles so far.")
             attempts += 1
-            if collected < count:
-                fallback_attempts += 1
-                if fallback_attempts > max_fallbacks:
-                    print(f"⚠️ Max fallback attempts reached for {category}.")
-                    break
 
-    print(f"✅ Successfully processed {len(results)} articles")
+    print(f"✅ Finished collecting {len(results)} articles. Starting summarization...")
+
+    summaries = []
+    for idx, art in enumerate(results, 1):
+        try:
+            summary = summarize_text(art["prompt_text"])
+        except Exception as e:
+            print(f"⚠️ Failed to summarize article {art['url']}: {e}")
+            continue
+        summaries.append({
+            "title": art["title"],
+            "source": art["source"],
+            "publishedAt": art["publishedAt"],
+            "url": art["url"],
+            "summary": summary,
+            "category": art["category"]
+        })
+        logs.append({
+            "title": art["title"],
+            "url": art["url"],
+            "word_count": len(art["prompt_text"].split()),
+            "summary_length": len(summary.split()),
+            "category": art["category"]
+        })
+        if idx % 5 == 0:
+            print(f"📝 Summarized {idx} articles so far.")
+
+    print(f"✅ Successfully summarized {len(summaries)} articles.")
 
     os.makedirs("app", exist_ok=True)
     os.makedirs("backend", exist_ok=True)
 
     with open("app/summaries.json", "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2)
+        json.dump(summaries, f, indent=2)
 
     with open("backend/fetch_log.json", "w", encoding="utf-8") as f:
         json.dump({
             "timestamp": datetime.utcnow().isoformat(),
-            "article_count": len(results),
+            "article_count": len(summaries),
             "logs": logs
         }, f, indent=2)
 
