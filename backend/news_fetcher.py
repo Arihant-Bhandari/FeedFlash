@@ -36,7 +36,69 @@ def extract_full_article(url):
         return article.text.strip()
     except Exception as e:
         print(f"⚠️ Failed to extract article from {url}: {e}")
-        return ""
+        return None
+
+def chunk_text(text, min_words=450, max_words=500):
+    """
+    Chunk text into pieces for summarization.
+    Each chunk will have up to max_words (default 500) and at least min_words (default 450) if possible.
+    This helps handle articles longer than the model's input token limit.
+    """
+    words = text.split()
+    chunks = []
+    start = 0
+    n = len(words)
+
+    while start < n:
+        end = min(start + max_words, n)
+        # If the chunk is too small and not the last chunk, extend it
+        if end - start < min_words and end < n:
+            end = min(start + min_words, n)
+        chunk = " ".join(words[start:end])
+        chunks.append(chunk)
+        start = end
+
+    return chunks
+
+def summarize_long_article(full_text):
+    """
+    Summarizes a long article by:
+    1. Splitting into chunks,
+    2. Summarizing each chunk,
+    3. Summarizing the concatenated chunk summaries for coherence.
+    """
+    words = full_text.split()
+    n = len(words)
+    chunks = []
+    start = 0
+
+    # Step 1: Chunking
+    while start < n:
+        end = min(start + 500, n)
+        if end - start < 450 and end < n:
+            end = min(start + 450, n)
+        chunks.append(" ".join(words[start:end]))
+        start = end
+
+    # Step 2: Summarize each chunk
+    chunk_summaries = []
+    for chunk in chunks:
+        try:
+            summary = summarize_text("Summarize the following news article: " + chunk)
+        except Exception as e:
+            print(f"⚠️ Failed to summarize chunk: {e}")
+            summary = ""
+        chunk_summaries.append(summary)
+
+    # Step 3: Summarize the concatenated summaries
+    combined = " ".join(chunk_summaries)
+    try:
+        final_summary = summarize_text("Summarize the following combined summaries: " + combined)
+    except Exception as e:
+        print(f"⚠️ Failed to summarize combined summary: {e}")
+        final_summary = combined  # fallback
+
+    return final_summary
 
 def main():
     print("🚀 Starting news fetching and summarization...")
@@ -70,16 +132,29 @@ def main():
                 if not url:
                     continue
                 full_text = extract_full_article(url)
-                word_count = len(full_text.split())
-                if not full_text or word_count < 150 or word_count > 2500:
+                if not full_text:
                     continue
-                prompt_text = "Summarize the following news article: " + full_text
+                word_count = len(full_text.split())
+                if word_count < 150 or word_count > 2500:
+                    continue
+
+                # Summarize long articles with chunking and recursive summarization
+                if word_count > 450:
+                    combined_summary = summarize_long_article(full_text)
+                else:
+                    try:
+                        combined_summary = summarize_text("Summarize the following news article: " + full_text)
+                    except Exception as e:
+                        print(f"⚠️ Failed to summarize article: {e}")
+                        combined_summary = "Summary not available due to error."
+
                 results.append({
                     "title": art.get("title"),
                     "source": art.get("source", {}).get("name"),
                     "publishedAt": art.get("publishedAt"),
                     "url": url,
-                    "prompt_text": prompt_text,
+                    "prompt_text": full_text,
+                    "summary": combined_summary,
                     "category": category
                 })
                 collected += 1
@@ -87,45 +162,22 @@ def main():
                     print(f"✅ Collected {collected} {category} articles so far.")
             attempts += 1
 
-    print(f"✅ Finished collecting {len(results)} articles. Starting summarization...")
+        if collected < count:
+            print(f"⚠️ Only collected {collected}/{count} {category} articles after {attempts} attempts")
 
-    summaries = []
-    for idx, art in enumerate(results, 1):
-        try:
-            summary = summarize_text(art["prompt_text"])
-        except Exception as e:
-            print(f"⚠️ Failed to summarize article {art['url']}: {e}")
-            continue
-        summaries.append({
-            "title": art["title"],
-            "source": art["source"],
-            "publishedAt": art["publishedAt"],
-            "url": art["url"],
-            "summary": summary,
-            "category": art["category"]
-        })
-        logs.append({
-            "title": art["title"],
-            "url": art["url"],
-            "word_count": len(art["prompt_text"].split()),
-            "summary_length": len(summary.split()),
-            "category": art["category"]
-        })
-        if idx % 5 == 0:
-            print(f"📝 Summarized {idx} articles so far.")
+    print(f"✅ Finished collecting {len(results)} articles. Summaries generated.")
 
-    print(f"✅ Successfully summarized {len(summaries)} articles.")
-
+    # Save summaries and logs
     os.makedirs("app", exist_ok=True)
     os.makedirs("backend", exist_ok=True)
 
     with open("app/summaries.json", "w", encoding="utf-8") as f:
-        json.dump(summaries, f, indent=2)
+        json.dump(results, f, indent=2)
 
     with open("backend/fetch_log.json", "w", encoding="utf-8") as f:
         json.dump({
             "timestamp": datetime.utcnow().isoformat(),
-            "article_count": len(summaries),
+            "article_count": len(results),
             "logs": logs
         }, f, indent=2)
 
