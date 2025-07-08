@@ -42,22 +42,18 @@ def chunk_text(text, min_words=450, max_words=500):
     """
     Chunk text into pieces for summarization.
     Each chunk will have up to max_words (default 500) and at least min_words (default 450) if possible.
-    This helps handle articles longer than the model's input token limit.
     """
     words = text.split()
     chunks = []
     start = 0
     n = len(words)
-
     while start < n:
         end = min(start + max_words, n)
-        # If the chunk is too small and not the last chunk, extend it
         if end - start < min_words and end < n:
             end = min(start + min_words, n)
         chunk = " ".join(words[start:end])
         chunks.append(chunk)
         start = end
-
     return chunks
 
 def summarize_long_article(full_text):
@@ -67,20 +63,7 @@ def summarize_long_article(full_text):
     2. Summarizing each chunk,
     3. Summarizing the concatenated chunk summaries for coherence.
     """
-    words = full_text.split()
-    n = len(words)
-    chunks = []
-    start = 0
-
-    # Step 1: Chunking
-    while start < n:
-        end = min(start + 500, n)
-        if end - start < 450 and end < n:
-            end = min(start + 450, n)
-        chunks.append(" ".join(words[start:end]))
-        start = end
-
-    # Step 2: Summarize each chunk
+    chunks = chunk_text(full_text)
     chunk_summaries = []
     for chunk in chunks:
         try:
@@ -89,15 +72,12 @@ def summarize_long_article(full_text):
             print(f"⚠️ Failed to summarize chunk: {e}")
             summary = ""
         chunk_summaries.append(summary)
-
-    # Step 3: Summarize the concatenated summaries
     combined = " ".join(chunk_summaries)
     try:
         final_summary = summarize_text("Summarize the following combined summaries: " + combined)
     except Exception as e:
         print(f"⚠️ Failed to summarize combined summary: {e}")
         final_summary = combined  # fallback
-
     return final_summary
 
 def main():
@@ -135,7 +115,9 @@ def main():
                 if not full_text:
                     continue
                 word_count = len(full_text.split())
-                if word_count < 150 or word_count > 2500:
+                # Strictly enforce word count between 200 and 1500
+                if word_count < 200 or word_count > 1500:
+                    print(f"⚠️ Skipping article ({word_count} words) not in 200-1500 word range: {url}")
                     continue
 
                 # Summarize long articles with chunking and recursive summarization
