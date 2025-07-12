@@ -57,35 +57,27 @@ def chunk_text(text, min_words=450, max_words=500):
     return chunks
 
 def summarize_long_article(full_text):
+    """
+    Summarizes a long article by:
+    1. Splitting into chunks,
+    2. Summarizing each chunk,
+    3. Summarizing the concatenated chunk summaries for coherence.
+    """
     chunks = chunk_text(full_text)
     chunk_summaries = []
-
-    for i, chunk in enumerate(chunks):
+    for chunk in chunks:
         try:
-            summary = summarize_text(
-                "You are a helpful assistant. Please summarize the following news article section:\n\n" + chunk
-            )
-            if not summary or len(summary.split()) < 30:
-                raise ValueError("Too short or empty summary.")
-            print(f"✅ Chunk {i+1} summary: {summary[:100]}...")
+            summary = summarize_text("Summarize the following news article: " + chunk)
         except Exception as e:
-            print(f"⚠️ Failed to summarize chunk {i+1}: {e}")
+            print(f"⚠️ Failed to summarize chunk: {e}")
             summary = ""
         chunk_summaries.append(summary)
-
     combined = " ".join(chunk_summaries)
-
     try:
-        final_summary = summarize_text(
-            "Summarize the following combined article summaries into a single cohesive summary:\n\n" + combined
-        )
-        if not final_summary or len(final_summary.split()) < 40:
-            print("⚠️ Final summary too short — falling back to raw combined summaries")
-            final_summary = combined
+        final_summary = summarize_text("Summarize the following combined summaries: " + combined)
     except Exception as e:
         print(f"⚠️ Failed to summarize combined summary: {e}")
-        final_summary = combined
-
+        final_summary = combined  # fallback
     return final_summary
 
 def main():
