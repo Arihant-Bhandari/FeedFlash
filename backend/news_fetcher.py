@@ -115,9 +115,9 @@ def main():
                 if not full_text:
                     continue
                 word_count = len(full_text.split())
-                # Strictly enforce word count between 200 and 1500
-                if word_count < 200 or word_count > 1500:
-                    print(f"⚠️ Skipping article ({word_count} words) not in 200-1500 word range: {url}")
+                # Strictly enforce word count between 200 and 2000
+                if word_count < 200 or word_count > 2000:
+                    print(f"⚠️ Skipping article ({word_count} words) not in 200-2000 word range: {url}")
                     continue
 
                 # Summarize long articles with chunking and recursive summarization
